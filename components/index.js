@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let currentTranslateY = 0;
 
   const animateTable = (direction) => {
-    if (window.innerWidth <= 425) {
+    if (window.innerWidth <= 435) {
         maxTranslateY = -20;
     }
     const startTime = performance.now();
